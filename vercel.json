@@ -1,8 +1,5 @@
 {
-  "rewrites": [
-    {
-      "source": "/((?!assets/|favicon.ico).*)",
-      "destination": "/index.html"
-    }
-  ]
+  "framework": "vite",
+  "buildCommand": "node node_modules/vite/bin/vite.js build",
+  "outputDirectory": "dist"
 }
